@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Saad Ullah</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        /* Education Section Fix - Compact Version */
+        .education-item {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            margin-bottom: 1.5rem;
+            border-left: 4px solid var(--secondary);
+        }
+
+        .education-item h3 {
+            color: var(--primary);
+            margin-bottom: 0.5rem;
+            font-size: 1.2rem;
+        }
+
+        .education-item .institution {
+            color: var(--secondary);
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.3rem;
+            display: block;
+        }
+
+        .education-item .duration {
+            color: var(--gray);
+            font-style: italic;
+            font-size: 0.85rem;
+            margin-bottom: 0.8rem;
+            display: block;
+        }
+
+        .education-item .thesis {
+            margin: 0.8rem 0;
+            font-size: 0.9rem;
+        }
+
+        .education-item .thesis strong {
+            color: var(--primary);
+            display: inline;
+            margin-right: 0.3rem;
+        }
+
+        .education-item .coursework {
+            margin-top: 0.8rem;
+            font-size: 0.9rem;
+        }
+
+        .education-item .coursework strong {
+            color: var(--primary);
+            display: block;
+            margin-bottom: 0.3rem;
+            font-size: 0.9rem;
+        }
+
+        .coursework-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.3rem;
+            margin-top: 0.3rem;
+        }
+
+        .coursework-item {
+            background: var(--light);
+            padding: 0.2rem 0.6rem;
+            border-radius: 3px;
+            font-size: 0.8rem;
+            color: var(--text);
+            transition: var(--transition);
+        }
+
+        .coursework-item:hover {
+            background: var(--secondary);
+            color: white;
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav class="side-nav">
+            <div class="nav-header">
+                <div class="avatar">
+                    <div class="avatar-img">SU</div>
+                </div>
+                <h2>Saad Ullah</h2>
+                <p>Cryptography Researcher</p>
+            </div>
+            
+            <ul class="nav-links">
+                <li><a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html" class="active"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="research.html"><i class="fas fa-search"></i> Research</a></li>
+                <li><a href="experience.html"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+            
+            <div class="nav-footer">
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </nav>
+
+        <main class="main-content">
+            <section class="page-header">
+                <h1>About Me</h1>
+                <p>My academic journey and professional background</p>
+            </section>
+
+            <div class="about-grid">
+                <!-- Updated Compact Education Section -->
+                <div class="about-card">
+                    <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+                    <div class="education-item">
+                        <h3>Bachelor in Mathematics</h3>
+                        <span class="institution">Comsats University Islamabad, Islamabad Campus</span>
+                        <span class="duration">2021 - 2025</span>
+                        
+                        <div class="thesis">
+                            <strong>Thesis:</strong> Elliptic Curve Cryptography
+                        </div>
+                        
+                        <div class="coursework">
+                            <strong>Relevant Coursework:</strong>
+                            <div class="coursework-list">
+                                <span class="coursework-item">Abstract Algebra</span>
+                                <span class="coursework-item">Number Theory</span>
+                                <span class="coursework-item">Algebraic Geometry</span>
+                                <span class="coursework-item">Computational Mathematics</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <h2><i class="fas fa-trophy"></i> Honors & Awards</h2>
+                    <div class="awards-grid">
+                        <div class="award-item">
+                            <div class="award-icon">
+                                <i class="fas fa-award"></i>
+                            </div>
+                            <div class="award-content">
+                                <h3>Undergraduate Merit Scholarship</h3>
+                                <p>2022 - Awarded for academic excellence</p>
+                            </div>
+                        </div>
+                        <div class="award-item">
+                            <div class="award-icon">
+                                <i class="fas fa-medal"></i>
+                            </div>
+                            <div class="award-content">
+                                <h3>Battle of Brain Quiz Competition</h3>
+                                <p>2024 - 1st Runner-Up, NUML University Islamabad</p>
+                            </div>
+                        </div>
+                        <div class="award-item">
+                            <div class="award-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="award-content">
+                                <h3>School Merit Scholarships</h3>
+                                <p>Consistently awarded from Grade 1 through Matriculation</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <h2><i class="fas fa-language"></i> Languages</h2>
+                    <div class="languages">
+                        <div class="language-item">
+                            <span class="language-name">Urdu</span>
+                            <div class="language-bar">
+                                <div class="language-progress" style="width: 100%"></div>
+                            </div>
+                            <span class="language-level">Native Speaker</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="language-name">English</span>
+                            <div class="language-bar">
+                                <div class="language-progress" style="width: 80%"></div>
+                            </div>
+                            <span class="language-level">CEFR Level B2</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <h2><i class="fas fa-users"></i> Professional Memberships</h2>
+                    <div class="memberships">
+                        <div class="membership-item">
+                            <i class="fas fa-user-circle"></i>
+                            <span>SIAM CUI Student Chapter (2021–2025)</span>
+                        </div>
+                        <div class="membership-item">
+                            <i class="fas fa-user-circle"></i>
+                            <span>IEEE Computer Society (2022–2025)</span>
+                        </div>
+                        <div class="membership-item">
+                            <i class="fas fa-user-circle"></i>
+                            <span>IEEE Robotics and Automation Society (2021–2023)</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
